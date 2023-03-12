@@ -124,6 +124,9 @@ def static_binomial_sampling(rng_key, proposal, new_proposal):
 # or built.
 # --------------------------------------------------------------------
 
+## TO DO ##
+# [ ] multinomial HMC
+
 
 def progressive_uniform_sampling(rng_key, proposal, new_proposal):
     # Using expit to compute exp(w1) / (exp(w0) + exp(w1))
